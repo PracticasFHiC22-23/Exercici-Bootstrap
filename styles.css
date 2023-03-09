@@ -1,0 +1,63 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0;
+}
+header, footer{
+    background-color: rgb(205 173 50);
+}
+
+header{
+    color: white;
+    max-height: 10vh;  
+    padding: 0.5rem;
+    text-align: center;     
+}
+footer{
+    color: white;
+    padding: 0.5rem;
+    min-height: 10vh;
+    text-align: end;
+}
+.container-nav-article{
+    display: flex;
+    min-height: 80vh;
+    background-color: rebeccapurple;
+    max-height: 80vh;
+}
+
+.titulo {
+    padding-left: 20px;
+}
+
+.list{
+    padding-left: 50px;
+}
+.navigationContainer {
+    background-color: rgb(245 245 221);
+    flex: 0 0 10vw;
+}
+button{
+    background-color: rgb(205 173 50);
+    width: 100%;
+    position: relative;
+    top: 27rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.articleContainer{        
+    color: white;
+    background-size: cover;  
+    flex: 1;
+    min-height: 80vh;
+    background-image: url(./images/Gato.JPG);
+}
+
+.container-nav-article .articleContainer p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 17rem;
+}
