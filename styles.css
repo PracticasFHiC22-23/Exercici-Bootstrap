@@ -1,63 +1,61 @@
-*{
-    box-sizing:border-box;
-}
-
-body{
-    margin: 0;
-}
 header, footer{
     background-color: rgb(205 173 50);
 }
 
+.row{
+    margin: auto;
+}
+
 header{
     color: white;
-    max-height: 10vh;  
-    padding: 0.5rem;
+    min-height: 30px;
+    height: 7vh;  
     text-align: center;     
 }
 footer{
     color: white;
-    padding: 0.5rem;
-    min-height: 10vh;
+    min-height: 20px;
+    height: 7vh;
     text-align: end;
 }
 .container-nav-article{
     display: flex;
-    min-height: 80vh;
-    background-color: rebeccapurple;
-    max-height: 80vh;
+    background-color: grey;
+    height: 86vh;
 }
 
-.titulo {
-    padding-left: 20px;
-}
-
-.list{
-    padding-left: 50px;
-}
 .navigationContainer {
     background-color: rgb(245 245 221);
-    flex: 0 0 10vw;
 }
 button{
     background-color: rgb(205 173 50);
-    width: 100%;
     position: relative;
-    top: 27rem;
-    padding: 10px;
     border-radius: 5px;
 }
 
 .articleContainer{        
     color: white;
-    background-size: cover;  
-    flex: 1;
-    min-height: 80vh;
+    background-size: cover;
     background-image: url(./images/Gato.JPG);
+    min-height: 0;
 }
+
+.messageForm{
+    color: white;
+    margin-top: 20vh;
+    align-items: center;
+    text-align: center;
+    min-height: 400px;
+}
+
+.catArticleContainer{
+   
+    background-color: aliceblue;
+}
+
 
 .container-nav-article .articleContainer p{
     font-size: 30px;
     text-align: center;
-    margin-top: 17rem;
+    margin-top: 20vh;
 }

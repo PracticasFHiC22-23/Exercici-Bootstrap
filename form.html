@@ -23,8 +23,25 @@
           </ul>
           <button class="row" type="button" onclick="window.location.href='form.html'">Sobre tu gato</button>
         </div>
-        <div class="col articleContainer">
-          <p>Si te gustan los gatos en Gatalia puedes saber mucho mas!<p>
+        <div class="col messageForm">
+            <div class="container-sm mt-4" style="width: 50vw;">
+                <h1>Introduce los datos de tu gato</h1>
+                <form action="final_form.html">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese el nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="edad">Edad:</label>
+                        <input type="number" class="form-control" id="edad" name="edad" placeholder="Ingrese la edad">
+                    </div>
+                    <div class="form-group">
+                        <label for="raza">Raza:</label>
+                        <input type="text" class="form-control" id="raza" name="raza" placeholder="Ingrese la raza">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
         </div>
       </div>
       <footer class="row">
